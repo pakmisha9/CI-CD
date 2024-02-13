@@ -3,7 +3,7 @@ defineProps({ count: Number, times: Number })
 
 const emit = defineEmits(["increment", "clear"])
 const increment = () => {
-	emit("increment", 2)
+	emit("increment", 1)
 }
 const clear = () => {
 	emit("clear")
