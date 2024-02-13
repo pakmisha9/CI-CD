@@ -1,7 +1,5 @@
-<script setup>
-import { computed, ref } from "vue"
-
-const props = defineProps({ count: Number, times: Number })
+<script setup lang="ts">
+defineProps({ count: Number, times: Number })
 
 const emit = defineEmits(["increment", "clear"])
 const increment = () => {

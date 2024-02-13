@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted, watch } from "vue"
+import { ref } from "vue"
 import TodoListItem from "@/components/TodoListItem.vue"
 
 const items = ref([])

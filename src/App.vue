@@ -1,10 +1,10 @@
-<script setup>
+<script setup lang="ts">
 import TodoList from "./components/TodoList.vue"
 import Counter from "./components/Counter.vue"
 import { ref } from "vue"
 const count = ref(0)
 const times = ref(1)
-const increment = value => {
+const increment = (value: number) => {
 	count.value += value
 }
 const clear = () => {
