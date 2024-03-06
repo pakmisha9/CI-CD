@@ -11,7 +11,6 @@ test("counter text updates", async () => {
 	})
 	const counter = wrapper.find('[data-test="counter"]')
 	const increment = wrapper.find('[data-test="increment"]')
-
 	expect(counter.text()).toEqual("0")
 	await increment.trigger("click")
 	expect(wrapper.emitted()).toHaveProperty("increment")
