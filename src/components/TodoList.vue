@@ -14,7 +14,7 @@ const addTodo = () => {
 			title: todoTitle.value
 		})
 	} else {
-		alert("Пусто")
+		alert("Не пусто")
 	}
 }
 
